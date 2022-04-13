@@ -10,7 +10,7 @@ from requests import session, Response, Session
 
 from notifier import Notifier
 
-shanghai_tz = timezone(timedelta(hours=9), name='Asia/Shanghai')
+shanghai_tz = timezone(timedelta(hours=8), name='Asia/Shanghai')
 
 
 def get_current_hour() -> int:
