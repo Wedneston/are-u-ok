@@ -92,7 +92,7 @@ class Job:
 
     @property
     def _body_temperature(self) -> float:
-        return 36 + randint(4, 7) / 10
+        return 37 + randint(4, 9) / 10
 
     @property
     def _report_body_temperature_url(self) -> str:
